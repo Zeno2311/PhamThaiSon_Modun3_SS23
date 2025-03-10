@@ -1,6 +1,6 @@
 let arr = []; 
-
-while (true) {
+let choice;
+while (choice) {
     console.log("\n================== MENU ===================");
     console.log("1. Nhập số phần tử cần nhập và giá trị các phần tử");
     console.log("2. In ra giá trị các phần tử đang quản lý");
@@ -11,7 +11,7 @@ while (true) {
     console.log("7. Thêm một phần tử vào vị trí chỉ định");
     console.log("8. Thoát");
     console.log("============================================");
-    let choice = +prompt("Lựa chọn của bạn: ");
+    choice = +prompt("Lựa chọn của bạn: ");
     switch (choice) {
         case 1:
             let n = +prompt("Nhập số phần tử của mảng:");
